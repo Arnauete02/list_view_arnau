@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">list_view_arnau</string>
+    <string name="app_name">Stores</string>
+    <string name="title_store">Stores</string>
+    <string name="subtitle_store">Always shopping</string>
 </resources>
