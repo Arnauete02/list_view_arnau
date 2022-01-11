@@ -2,4 +2,6 @@
     <string name="app_name">Stores</string>
     <string name="title_store">Stores</string>
     <string name="subtitle_store">Always shopping</string>
+
+    <string name="zara">Zara</string>
 </resources>
