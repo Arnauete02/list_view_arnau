@@ -32,4 +32,19 @@
     <string name="web5">www.nike.com</string>
     <string name="horario5">10:00 - 21:00</string>
     <string name="map5">Pg. de Gràcia, 17</string>
+
+    <string name="name">Nom</string>
+    <string name="surname">Cognoms</string>
+    <string name="email">Email</string>
+    <string name="persons">Nº de persones</string>
+
+    <string name="news">Newsletter</string>
+    <string name="o1">Notícies</string>
+    <string name="o2">Promocions</string>
+    <string name="o3">Bulletins</string>
+
+    <string name="entrada">Entrada</string>
+    <string name="sortida">Sortida</string>
+    <string name="button">SUSCRIURE</string>
+
 </resources>
