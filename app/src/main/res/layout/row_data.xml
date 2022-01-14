@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#F6F5F5"
     android:padding="6dp">
 
     <TextView
@@ -12,6 +14,116 @@
         android:layout_marginTop="6dp"
         android:fontFamily="@font/amarante"
         android:text="@string/zara"
-        android:textSize="18sp"
+        android:textColor="#226293"
+        android:textSize="20sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_stores"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/title_stores"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/zara_logo" />
+
+    <TextView
+        android:id="@+id/emp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_stores"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/img_stores"
+        android:text="@string/emp1"
+        android:textColor="#2A76AF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/web"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/emp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/img_stores"
+        app:srcCompat="@drawable/web" />
+
+    <TextView
+        android:id="@+id/text_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@id/web"
+        android:text="@string/web1"
+        android:textColor="#5C5C5C"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/horario"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/web"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/img_stores"
+        app:srcCompat="@drawable/alarma" />
+
+    <TextView
+        android:id="@+id/text_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@id/horario"
+        android:text="@string/horario1"
+        android:textColor="#FF5C5C5C"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/emp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/text_web"
+        app:srcCompat="@drawable/mapa" />
+
+    <TextView
+        android:id="@+id/text_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@id/map"
+        android:text="@string/map1"
+        android:textColor="#FF5C5C5C"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:alpha="0"
+        app:srcCompat="@drawable/save" />
+
+    <ImageView
+        android:id="@+id/unsave"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        app:srcCompat="@drawable/bookmark" />
+
 </RelativeLayout>

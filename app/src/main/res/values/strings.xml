@@ -4,4 +4,32 @@
     <string name="subtitle_store">Always shopping</string>
 
     <string name="zara">Zara</string>
+    <string name="emp1">Inditex</string>
+    <string name="web1">www.zara.com</string>
+    <string name="horario1">9:00 - 21:00</string>
+    <string name="map1">A Barcelona 9</string>
+
+    <string name="mango"></string>
+    <string name="emp2"></string>
+    <string name="web2"></string>
+    <string name="horario2"></string>
+    <string name="map2"></string>
+
+    <string name="hm"></string>
+    <string name="emp3"></string>
+    <string name="web3"></string>
+    <string name="horario3"></string>
+    <string name="map3"></string>
+
+    <string name=""></string>
+    <string name="emp4"></string>
+    <string name="web4"></string>
+    <string name="horario4"></string>
+    <string name="map4"></string>
+
+    <string name=""></string>
+    <string name="emp5"></string>
+    <string name="web5"></string>
+    <string name="horario5"></string>
+    <string name="map5"></string>
 </resources>

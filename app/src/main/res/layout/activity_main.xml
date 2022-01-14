@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6F5F5"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -20,8 +21,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
-        app:srcCompat="@drawable/store" />
+        app:srcCompat="@drawable/tiendaderopa" />
 
     <TextView
         android:id="@+id/title_store"
@@ -32,7 +32,7 @@
         android:layout_marginTop="48dp"
         android:fontFamily="@font/allan_bold"
         android:text="@string/title_store"
-        android:textColor="#E15858"
+        android:textColor="#4F8FC8"
         android:textSize="40sp" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/amarante"
         android:text="@string/subtitle_store"
-        android:textColor="#BD4545"
+        android:textColor="#529ADA"
         android:textSize="16sp"
         android:textStyle="bold" />
 </RelativeLayout>
