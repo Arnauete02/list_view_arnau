@@ -1,35 +1,35 @@
 <resources>
     <string name="app_name">Stores</string>
     <string name="title_store">Stores</string>
-    <string name="subtitle_store">Always shopping</string>
+    <string name="subtitle_store">Always shopping in BCN</string>
 
     <string name="zara">Zara</string>
     <string name="emp1">Inditex</string>
     <string name="web1">www.zara.com</string>
-    <string name="horario1">9:00 - 21:00</string>
-    <string name="map1">A Barcelona 9</string>
+    <string name="horario1">10:00 - 21:00</string>
+    <string name="map1">Pg. de Gràcia, 16</string>
 
-    <string name="mango"></string>
-    <string name="emp2"></string>
-    <string name="web2"></string>
-    <string name="horario2"></string>
-    <string name="map2"></string>
+    <string name="mango">Mango</string>
+    <string name="emp2">Punto Fa</string>
+    <string name="web2">shop.mango.com/es</string>
+    <string name="horario2">10:00 - 21:00</string>
+    <string name="map2">Pg. de Gràcia, 65</string>
 
-    <string name="hm"></string>
-    <string name="emp3"></string>
-    <string name="web3"></string>
-    <string name="horario3"></string>
-    <string name="map3"></string>
+    <string name="hm">H&amp;M</string>
+    <string name="emp3">H&amp;M Group</string>
+    <string name="web3">www2.hm.com</string>
+    <string name="horario3">10:00 - 21:00</string>
+    <string name="map3">Pg. de Gràcia, 11</string>
 
-    <string name=""></string>
-    <string name="emp4"></string>
-    <string name="web4"></string>
-    <string name="horario4"></string>
-    <string name="map4"></string>
+    <string name="hollister">Hollister</string>
+    <string name="emp4">Hollister Co</string>
+    <string name="web4">www.hollisterco.com</string>
+    <string name="horario4">9:00 - 21:00</string>
+    <string name="map4">c/ Potosí, 2</string>
 
-    <string name=""></string>
-    <string name="emp5"></string>
-    <string name="web5"></string>
-    <string name="horario5"></string>
-    <string name="map5"></string>
+    <string name="nike">Nike</string>
+    <string name="emp5">Nike Inc</string>
+    <string name="web5">www.nike.com</string>
+    <string name="horario5">10:00 - 21:00</string>
+    <string name="map5">Pg. de Gràcia, 17</string>
 </resources>
