@@ -3,6 +3,7 @@ package com.example.list_view_arnau;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.save,
             R.drawable.bookmark);
 
+    private ListView listView;
     ArrayList<Item> items = new ArrayList<>();
 
     @Override
@@ -80,10 +82,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        listView = findViewById(R.id.listView);
+
         items.add(zara);
         items.add(mango);
         items.add(hm);
         items.add(hollister);
         items.add(nike);
+
+
     }
 }
