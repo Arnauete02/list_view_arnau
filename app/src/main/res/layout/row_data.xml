@@ -25,7 +25,7 @@
         android:layout_below="@id/title_stores"
         android:layout_marginStart="6dp"
         android:layout_marginTop="6dp"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/zara_logo" />
 
     <TextView
@@ -89,17 +89,17 @@
         android:id="@+id/map"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:layout_below="@id/emp"
-        android:layout_marginStart="16dp"
+        android:layout_below="@id/web"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_toEndOf="@id/text_web"
+        android:layout_toEndOf="@id/text_horario"
         app:srcCompat="@drawable/mapa" />
 
     <TextView
         android:id="@+id/text_map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/emp"
+        android:layout_below="@id/web"
         android:layout_marginStart="6dp"
         android:layout_marginTop="18dp"
         android:layout_toEndOf="@id/map"

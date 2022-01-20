@@ -42,9 +42,14 @@
     <string name="o1">Notícies</string>
     <string name="o2">Promocions</string>
     <string name="o3">Bulletins</string>
+    <string name="o4">Cap</string>
 
     <string name="entrada">Entrada</string>
     <string name="sortida">Sortida</string>
     <string name="button">SUSCRIURE</string>
+    
+    <string name="select">Selecciona tenda</string>
+    <string name="mailCC">agraciataberner02@gmail.com</string>
+    <string name="subject">Suscrit a </string>
 
 </resources>

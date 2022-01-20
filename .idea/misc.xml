@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/arnau/Documents/DAM/M08/list_view_arnau/app/src/main/res/layout/activity_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/arnau/Documents/DAM/M08/list_view_arnau/app/src/main/res/layout/activity_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/arnau/Documents/DAM/M08/list_view_arnau/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/arnau/Documents/DAM/M08/list_view_arnau/app/src/main/res/layout/activity_reserva.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/arnau/Documents/DAM/M08/list_view_arnau/app/src/main/res/layout/row_data.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.32864583333333336" />
         <entry key="app/src/main/res/layout/activity_details.xml" value="0.35520833333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35520833333333335" />

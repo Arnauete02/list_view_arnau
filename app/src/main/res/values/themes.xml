@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.List_view_arnau" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimary">#4F8FC8</item>
         <item name="colorPrimaryVariant">#AA241B</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

@@ -3,9 +3,11 @@ package com.example.list_view_arnau;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -18,68 +20,71 @@ import java.util.List;
 
 public class DashboardActivity extends AppCompatActivity {
 
+    public static String EXTRA_TITLE_STORES = "com.example.list_view_arnau.EXTRA_TITLE_STORES";
+    public static String EXTRA_IMG_STORES = "com.example.list_view_arnau.EXTRA_IMG_STORES";
+
     Item zara = new Item(
-            getString(R.string.zara),
+            "Zara",
             R.drawable.zara_logo,
-            getString(R.string.emp1),
+            "Inditex",
             R.drawable.web,
-            getString(R.string.web1),
+            "www.zara.com",
             R.drawable.alarma,
-            getString(R.string.horario1),
+            "10:00 - 21:00",
             R.drawable.mapa,
-            getString(R.string.map1),
+            "Pg. de Gràcia, 16",
             R.drawable.save,
             R.drawable.bookmark);
 
     Item mango = new Item(
-            getString(R.string.mango),
+            "Mango",
             R.drawable.mango_logo,
-            getString(R.string.emp2),
+            "Punto Fa",
             R.drawable.web,
-            getString(R.string.web2),
+            "shop.mango.com/es",
             R.drawable.alarma,
-            getString(R.string.horario2),
+            "10:00 - 21:00",
             R.drawable.mapa,
-            getString(R.string.map2),
+            "Pg. de Gràcia, 65",
             R.drawable.save,
             R.drawable.bookmark);
 
     Item hm = new Item(
-            getString(R.string.hm),
+            "H&M",
             R.drawable.hm_logo,
-            getString(R.string.emp3),
+            "H&M Group",
             R.drawable.web,
-            getString(R.string.web3),
+            "www2.hm.com",
             R.drawable.alarma,
-            getString(R.string.horario3),
+            "10:00 - 21:00",
             R.drawable.mapa,
-            getString(R.string.map3),
+            "Pg. de Gràcia, 11",
             R.drawable.save,
             R.drawable.bookmark);
 
     Item hollister = new Item(
-            getString(R.string.hollister),
+            "Hollister",
             R.drawable.hollister_logo,
-            getString(R.string.emp4),
+            "Hollister Co",
             R.drawable.web,
-            getString(R.string.web4),
+            "www.hollisterco.com",
             R.drawable.alarma,
-            getString(R.string.horario4),
+            "9:00 - 21:00",
             R.drawable.mapa,
-            getString(R.string.map4),
+            "c/ Potosí, 2",
             R.drawable.save,
             R.drawable.bookmark);
 
     Item nike = new Item(
-            getString(R.string.nike),
+            "Nike",
             R.drawable.nike_logo,
-            getString(R.string.emp5),
+            "Nike Inc.",
             R.drawable.web,
-            getString(R.string.web5),
+            "www.nike.com",
             R.drawable.alarma,
-            getString(R.string.horario5),
+            "10:00 - 21:00",
             R.drawable.mapa,
-            getString(R.string.map5),
+            "Pg. de Gràcia, 17",
             R.drawable.save,
             R.drawable.bookmark);
 
@@ -101,6 +106,20 @@ public class DashboardActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
 
         listView.setAdapter(customAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                displayInfo(position);
+            }
+        });
+    }
+
+    private void displayInfo(int position){
+        Intent i = new Intent(getApplicationContext(), ReservaActivity.class);
+        i.putExtra(EXTRA_TITLE_STORES, items.get(position).getTitle_stores());
+        i.putExtra(EXTRA_IMG_STORES, items.get(position).getImg_stores());
+        startActivity(i);
     }
 
     public class CustomAdapter extends BaseAdapter {
